@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} Check Twitter Bot {% endblock %}</h1>
+    {% for tweet in tweets %}
+        <a href="#">
+            <h2>{{ tweet['title'] }}</h2>
+        </a>
+        <span class="badge badge-primary">{{ tweet['created'] }}</span>
+        <hr>
+    {% endfor %}
+{% endblock %}
