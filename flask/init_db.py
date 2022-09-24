@@ -16,7 +16,7 @@ bom = botometer.Botometer(wait_on_ratelimit=True,
                         **twitter_app_auth)
 
 # Check a single account by screen name
-result = bom.check_account('@elonmusk')
+result = bom.check_account('@BU_Tweets')
 
 connection = sqlite3.connect('database.db')
 
@@ -27,7 +27,7 @@ with open('data.sql') as f:
 cur = connection.cursor()
 
 cur.execute("INSERT INTO posts (title, content) VALUES (?, ?)",
-            ('@elonmusk', 'score: ' + str(result['display_scores']['universal']['overall']))
+            ('@BU_Tweets', 'score: ' + str(result['display_scores']['universal']['overall']))
             )
 
 cur.execute("INSERT INTO posts (title, content) VALUES (?, ?)",
