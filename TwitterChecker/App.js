@@ -60,7 +60,7 @@ const image = { uri: "https://ichef.bbci.co.uk/news/976/cpsprodpb/15FE6/producti
 // };
 
 const App: () => Node = () => {
-  const[inputText, SetName] = React.useState('');
+  const[inputText, handleName] = React.useState('');
   // const isDarkMode = useColorScheme() === 'dark';
 
   // const backgroundStyle = {
@@ -92,7 +92,7 @@ const App: () => Node = () => {
         <TextInput 
           style={styles.input}
           placeholder='@twitterhandle123'
-          onChangeText={(value)=>SetName(value)}
+          onChangeText={(value)=>handleName(value)}
         />
       
         <Text>
