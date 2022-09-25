@@ -4,7 +4,7 @@
 
 
 ## Report
-For our project, as both Prithik and Yihe are new to app devlopment, APIs, and firebase, we decided that we would follow the recommended approach
+For our project, as both Prithika and Yihe are new to app devlopment, APIs, and firebase, we decided that we would follow the recommended approach
 of implementing the application through React Native. This would provide a sufficient challenge for ourselves, as well as possible guidance as we
 grapple with this process for the first time. Prithika primarily worked on creating the UI, walking through the Hello World tutorials, learning 
 about React Native and Andriod studios. She created a very basic UI that can take in a twitter handle as text. Yihe worked mostly on the backend. Based on flask and using twitter and botometer API, we are able get how likeley the user is a robot. Then we stored that data in a sql lite3 database so that user can check previous data without doing the search again.
