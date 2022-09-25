@@ -6,10 +6,10 @@ sys.path.insert(0, '/Users/biyihe/Documents/ec463/botometer-python')
 import botometer
 import sqlite3
 
-rapidapi_key = "e42d43c35emsh29a2e97be3b0fc4p1acbc4jsn1b9a8ca2d2c9"
+rapidapi_key = ""
 twitter_app_auth = {
-    'consumer_key': 'TmBOkVLtmlInsN3mIvwtuM2Fe',
-    'consumer_secret': 'HTb9NVgt4ZySucfEQ6Ir5Z3yfGfqjqzkC7HJtgqeBALKUplX4O',
+    'consumer_key': '',
+    'consumer_secret': '',
     #'access_token': 'xxxxxxxxx',
     #'access_token_secret': 'xxxxxxxxxxx',
 }
