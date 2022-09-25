@@ -1,7 +1,13 @@
 # Senior_Design_2022_SW_Mini_Project
 
-## Design
+Author: Prithika Ganesh; Yihe Bi
+Date: 2022-09-25
 
+## Design
+Utilized Twitter and Botometer API to retrieve data, and put data in a SQL database. Also used flask to help building the app.
+
+## Images
+![AndroidUI](images/TwitterCheckerUI_Pic1.PNG)
 
 ## Report
 For our project, as both Prithika and Yihe are new to app devlopment, APIs, and firebase, we decided that we would follow the recommended approach
