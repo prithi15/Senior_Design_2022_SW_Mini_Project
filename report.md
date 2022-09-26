@@ -4,12 +4,15 @@ Author: Prithika Ganesh; Yihe Bi
 
 Date: 2022-09-25
 
+Check REAME.md file for images and design decisions
+[README.md](README.md)
+
 For our project, as both Prithika and Yihe are new to app devlopment, APIs, and firebase, we decided that we would follow the recommended approach
 of implementing the application through React Native. This would provide a sufficient challenge for ourselves, as well as possible guidance as we
 grapple with this process for the first time. Prithika primarily worked on creating the UI, walking through the Hello World tutorials, learning 
 about React Native and Andriod studios. She created a very basic UI that can take in a twitter handle as text. Yihe worked mostly on the backend. Based on flask and using twitter and botometer API, we are able get how likeley the user is a robot. Then we stored that data in a sql lite3 database so that user can check previous data without doing the search again.
 
-We are currently passing data between frontend and backend using html files.
+We are currently passing data between frontend and backend using html files. User can input a username and the app will check if this user is a robot and store the data. User can come back and review the search history anytime. 
 However, what we initially expected was connecting the front and backends using our onw REST API. We tried to pack data into a json files and pass it between frontend and backend, but it's not working smoothly as we expected.
 
 We also tried but were unable to generate the SHA1 codes for the google authentification and firebase. We continuely got an error stating that the keystore was missing, desite the fact that the file did exist in the appropriate spot (see 
