@@ -1,16 +1,9 @@
-# Senior_Design_2022_SW_Mini_Project
+# EC463 Mini-project Report
 
 Author: Prithika Ganesh; Yihe Bi
 
 Date: 2022-09-25
 
-## Design
-Utilized Twitter and Botometer API to retrieve data, and put data in a SQL database. Also used flask to help building the app. Created UI through React Native.
-
-## Images
-![AndroidUI](images/TwitterCheckerUI_Pic1.PNG)
-
-## Report
 For our project, as both Prithika and Yihe are new to app devlopment, APIs, and firebase, we decided that we would follow the recommended approach
 of implementing the application through React Native. This would provide a sufficient challenge for ourselves, as well as possible guidance as we
 grapple with this process for the first time. Prithika primarily worked on creating the UI, walking through the Hello World tutorials, learning 
