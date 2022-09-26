@@ -4,6 +4,9 @@ Author: Prithika Ganesh; Yihe Bi
 
 Date: 2022-09-25
 
+## Report
+[report.md](report.md)
+
 ## Design
 Utilized Twitter and Botometer API to retrieve data, and put data in a SQL database. Also used flask to help building the app. Created UI through React Native.
 
