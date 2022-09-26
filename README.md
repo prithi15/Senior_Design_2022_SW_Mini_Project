@@ -12,6 +12,9 @@ Utilized Twitter and Botometer API to retrieve data, and put data in a SQL datab
 
 ## Images
 ![AndroidUI](images/TwitterCheckerUI_Pic1.PNG)
+![Web](images/homecreen.png)
+![Web](images/add_user.png)
+![Web](images/score.png)
 
 ## Report
 For our project, as both Prithika and Yihe are new to app devlopment, APIs, and firebase, we decided that we would follow the recommended approach
